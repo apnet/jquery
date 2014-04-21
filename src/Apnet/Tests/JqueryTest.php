@@ -11,13 +11,13 @@ namespace Apnet\Tests;
 use Apnet\FunctionalTestBundle\Framework\WebTestCase;
 
 /**
- * Test bundle
+ * Test jquery
  */
 class JqueryTest extends WebTestCase
 {
 
   /**
-   * Test client
+   * Test imported files
    *
    * @param string $source Source path in app/Resources
    * @param string $target Target path

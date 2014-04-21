@@ -1,5 +1,5 @@
-jQuery Bundle
-=============
+jQuery Assets Importer
+======================
 
 Installation
 ------------
