@@ -2,5 +2,6 @@
 <html>
 <body>
 {{ file_get_contents(readme_md)|raw|markdown }}
+<script src="{{ imported_asset('jquery/dist/jquery.min.js') }}"></script>
 </body>
 </html>

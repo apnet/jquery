@@ -1,0 +1,11 @@
+assets:
+    jquery:
+        inputs:
+            - ../../../vendor/jquery/jquery-source/dist/jquery.js
+        options:
+            output: dist/jquery.js
+    jquery_min:
+        inputs:
+            - ../../../vendor/jquery/jquery-source/dist/jquery.min.js
+        options:
+            output: dist/jquery.min.js
