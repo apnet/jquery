@@ -31,7 +31,7 @@ services:
     apnet.assetic.importer.jquery:
         parent: assetic.importer_path
         arguments:
-            - %kernel.root_dir%/../vendor/apnet/jquery/Resources/assets/dist
+            - %kernel.root_dir%/../vendor/apnet/jquery/app/Resources/assets/dist
             - jquery
         tags:
             - { name: apnet.assetic.config_mapper }
