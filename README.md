@@ -17,7 +17,14 @@ Add requirements to composer.json:
 Configurations
 --------------
 
-Add jquery to services.yml
+Register `ApnetAsseticImporterBundle` bundle in the `AppKernel.php` file
+
+``` php
+// ...other bundles ...
+$bundles[] = new Apnet\AsseticImporterBundle\ApnetAsseticImporterBundle();
+```
+
+Add jQuery importer to services.yml
 
 ``` yml
 services:
