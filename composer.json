@@ -1,6 +1,6 @@
 {
     "name" : "apnet/jquery",
-    "description" : "Symfony2 Bundle Skel",
+    "description" : "jQuery for AsseticImporter",
     "type" : "symfony-bundle",
     "license" : "MIT",
     "authors" : [
