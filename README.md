@@ -43,5 +43,5 @@ Twig
 To include jQuery into Twig template use **imported_asset** function:
 
 ``` html
-<link href="{{ imported_asset('jquery/dist/jquery.min.js') }}" rel="stylesheet" type="text/css" />
+<link href="{{ imported_asset('jquery/jquery.min.js') }}" rel="stylesheet" type="text/css" />
 ```
