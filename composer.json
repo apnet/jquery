@@ -1,7 +1,7 @@
 {
     "name" : "apnet/jquery",
     "description" : "jQuery for AsseticImporter",
-    "type" : "symfony-bundle",
+    "type" : "library",
     "license" : "MIT",
     "authors" : [
         {
@@ -21,7 +21,7 @@
         "apnet/functional-test-bundle" : "~1.1,>=1.1.3",
         "phpunit/phpunit" : "~4.0",
         "squizlabs/php_codesniffer" : "~1.5",
-        "apnet/coding-standard" : "~1.0",
+        "apnet/coding-standard" : "~1.5",
         "knplabs/knp-markdown-bundle" : "~1.3"
     },
     "repositories" : [
