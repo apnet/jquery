@@ -2,20 +2,16 @@ language: php
 
 php:
    - 5.3
-   - 5.4
    - 5.5
 
 env:
    global:
       secure: "Ejb5TBiizStwC3H/4VFOaAoRf1INH3qjJ0iYCiVihWZVbGqNtIHZl/Qlct8Z6WY9Oy1qIctfeMQtQSPsEJdhbLAgZnFLhVsElBRvACiwbaG8+SlazFdAlugQWTWM+kRhFIswPVWaHkAD6a7wGgJTqCqsdp/JTPlWkLJnD7cYs5A="
-   matrix:
-      - SYMFONY_VERSION=2.3.*
-      - SYMFONY_VERSION=2.4.*
 
 before_script:
    - composer self-update
    - sh -c "if $TRAVIS_SECURE_ENV_VARS; then composer config --global github-oauth.github.com $GITHUB_OAUTH_TOKEN; fi"
-   - composer require --dev symfony/symfony:${SYMFONY_VERSION}
+   - composer install
 
 script:
    - bin/phpunit
