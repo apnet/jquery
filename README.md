@@ -9,7 +9,7 @@ Add requirements to composer.json:
 ``` json
 {
   "require" : {
-    "apnet/jquery" : "~1.11,<2.0"
+    "apnet/jquery" : "~2.1"
   }
 }
 ```
