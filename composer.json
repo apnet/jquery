@@ -46,7 +46,6 @@
             "Apnet\\" : "src/"
         }
     },
-    "minimum-stability" : "beta",
     "config" : {
         "bin-dir" : "bin"
     },
